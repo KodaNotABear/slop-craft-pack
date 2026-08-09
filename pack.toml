@@ -1,4 +1,4 @@
-name = "Craftin' SMP"
+name = "Slop Craft"
 author = "epeterson"
 version = "2.0.0"
 pack-format = "packwiz:1.1.0"
@@ -10,4 +10,4 @@ hash = "94065bf6c6d8ac507066f1f52733ed9662a8b2220401d22bda7ec36e8e8ab903"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.234"
+neoforge = "21.1.248"
