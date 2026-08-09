@@ -1,0 +1,13 @@
+name = "Expanding Technologies"
+filename = "expandingtechnologies-1.21.1-1.3.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BU2uaPfJ/versions/zpEKhqzP/expandingtechnologies-1.21.1-1.3.4.jar"
+hash-format = "sha512"
+hash = "ee9ce5b0367daa53b4946228144ea183e5e17509ac1a698a8f1b197b12cb4fa5f7cb14d7806cd942244ad9a33b8699934f59730b5621d1857043e26ce8e766d5"
+
+[update]
+[update.modrinth]
+mod-id = "BU2uaPfJ"
+version = "zpEKhqzP"
