@@ -1490,14 +1490,6 @@ hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
 
 [[files]]
-file = "packwiz-installer-bootstrap.jar"
-hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
-
-[[files]]
-file = "publish.ps1"
-hash = "92a2181603bbae6786f1f1597958ed7d51eb71e5d16852b3f9d08091aa454fa0"
-
-[[files]]
 file = "resourcepacks/ars-nouveau-brass-ified-create-style-anbics.pw.toml"
 hash = "21e4e6c096a92fba4dcc5f73c4f807a45113213d5dc8bdc8e93de9f3ded547ac"
 metafile = true
