@@ -1,2 +1,5 @@
 *.mrpack
 
+packwiz-installer-bootstrap.jar
+packwiz-installer.jar
+

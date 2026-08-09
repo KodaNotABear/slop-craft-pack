@@ -1,13 +1,13 @@
 name = "Craftin' SMP"
 author = "epeterson"
-version = "1.0.0"
+version = "2.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "df613b5ea73a7bf71575944798d179cd8237db6777265b9f10539e483b959fda"
+hash = "470cde2c360f8396517ddbae4e816d002e954c5de20224a1e9735414502ce33b"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.230"
+neoforge = "21.1.234"

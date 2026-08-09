@@ -1,0 +1,13 @@
+name = "Ars Nouveau Brass-ified Create-Style - ANBICS"
+filename = "Ars-Nouveau-Brass-ified-Create-Style---ANBICS.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Fc1z2stR/versions/QDkx5h7W/Ars-Nouveau-Brass-ified-Create-Style---ANBICS.zip"
+hash-format = "sha512"
+hash = "0ce9c92f640a832265c26bd3c12998da0c6da0eeb5a11fd35612c71f6ad0012e7e9aa0aac85af7a24a80699f69b23e61c0f366dc9736db626be87329a7cb4f9c"
+
+[update]
+[update.modrinth]
+mod-id = "Fc1z2stR"
+version = "QDkx5h7W"
