@@ -2,3 +2,5 @@ publish.ps1
 .gitignore
 .gitattributes
 packwiz-installer-bootstrap.jar
+packwiz-sync-agent.jar
+
