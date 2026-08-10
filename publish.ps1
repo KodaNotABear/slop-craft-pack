@@ -39,37 +39,57 @@ foreach ($h in $byHash.Keys) {
 Write-Host "  $($want.Count) tracked via Modrinth, $($staticJars.Count) unmatched jars"
 
 # --- Current state: what the pack says ---
-$have = @{}
+# Normalize filenames so browser-duplicate suffixes like "(1).jar" and case
+# differences don't defeat matching.
+function Normalize-Name([string]$n) { ($n -replace '\(\d+\)(?=\.jar$)', '').ToLowerInvariant() }
+$instanceJarNames = [System.Collections.Generic.HashSet[string]]::new(
+    [string[]]@((Get-ChildItem "$Instance\mods" -Filter *.jar).Name | ForEach-Object { Normalize-Name $_ }))
+
+$have = @{}          # Modrinth-tracked: project id -> info
+$cfTracked = @()     # CurseForge-tracked metafiles: @{path; name; filename}
+$trackedFilenames = [System.Collections.Generic.HashSet[string]]::new()
 foreach ($t in Get-ChildItem "$pack\mods" -Filter *.pw.toml) {
     $txt = Get-Content -LiteralPath $t.FullName -Raw
-    if ($txt -match 'mod-id\s*=\s*"([^"]+)"' ) {
+    $fname = if ($txt -match '(?m)^filename\s*=\s*"([^"]+)"') { Normalize-Name $Matches[1] } else { '' }
+    if ($fname) { [void]$trackedFilenames.Add($fname) }
+    if ($txt -match '\[update\.modrinth\]' -and $txt -match 'mod-id\s*=\s*"([^"]+)"') {
         $id = $Matches[1]
         $ver = if ($txt -match '(?m)^version\s*=\s*"([^"]+)"') { $Matches[1] } else { '' }
-        $have[$id] = @{ versionId = $ver; path = $t.FullName; name = $t.Name }
+        $have[$id] = @{ versionId = $ver; path = $t.FullName; name = $t.Name; filename = $fname }
+    } elseif ($txt -match '\[update\.curseforge\]') {
+        $cfTracked += @{ path = $t.FullName; name = $t.Name; filename = $fname }
     }
 }
 
 $toAdd    = $want.Keys | Where-Object { -not $have.ContainsKey($_) }
 $toUpdate = $want.Keys | Where-Object { $have.ContainsKey($_) -and $have[$_].versionId -ne $want[$_].versionId }
-$toRemove = $have.Keys | Where-Object { -not $want.ContainsKey($_) }
+# Keep a Modrinth-tracked entry when its exact file is still in the instance,
+# even if the instance jar's hash didn't match Modrinth (CurseForge-flavored
+# build of the same release, e.g. Kotlin for Forge).
+$toRemove = $have.Keys | Where-Object { -not $want.ContainsKey($_) -and -not $instanceJarNames.Contains($have[$_].filename) }
+# CurseForge-tracked entries are managed by filename: drop them when the jar
+# left the instance.
+$cfRemove = $cfTracked | Where-Object { -not $instanceJarNames.Contains($_.filename) }
 
 Write-Host ""
 Write-Host "New:     $($toAdd.Count)" -ForegroundColor Green
 $toAdd    | ForEach-Object { "  + $($want[$_].file)" }
 Write-Host "Updated: $($toUpdate.Count)" -ForegroundColor Yellow
 $toUpdate | ForEach-Object { "  ~ $($want[$_].file)" }
-Write-Host "Removed: $($toRemove.Count)" -ForegroundColor Red
+Write-Host "Removed: $($toRemove.Count + $cfRemove.Count)" -ForegroundColor Red
 $toRemove | ForEach-Object { "  - $($have[$_].name)" }
+$cfRemove | ForEach-Object { "  - $($_.name) (curseforge)" }
 
-# Static (non-Modrinth) jars bundled directly in the pack
+# Static jars: only bundle unmatched jars that no metafile (Modrinth or
+# CurseForge) already covers.
 $haveStatic = (Get-ChildItem "$pack\mods" -Filter *.jar -ErrorAction SilentlyContinue).Name
-$staticAdd = $staticJars | Where-Object { $_ -notin $haveStatic }
-$staticDel = $haveStatic | Where-Object { $_ -notin $staticJars }
+$staticAdd = $staticJars | Where-Object { -not $trackedFilenames.Contains((Normalize-Name $_)) -and $_ -notin $haveStatic }
+$staticDel = $haveStatic | Where-Object { (Normalize-Name $_) -notin ($staticJars | ForEach-Object { Normalize-Name $_ }) }
 if ($staticAdd) { Write-Host "Bundled jars added:   $($staticAdd -join ', ')" -ForegroundColor Green }
 if ($staticDel) { Write-Host "Bundled jars removed: $($staticDel -join ', ')" -ForegroundColor Red }
 
 if ($DryRun) { Write-Host "`n(dry run - nothing changed)" -ForegroundColor Cyan; return }
-if (-not ($toAdd -or $toUpdate -or $toRemove -or $staticAdd -or $staticDel)) {
+if (-not ($toAdd -or $toUpdate -or $toRemove -or $cfRemove -or $staticAdd -or $staticDel)) {
     Write-Host "`nPack already matches the instance. Nothing to do." -ForegroundColor Cyan
     return
 }
@@ -81,6 +101,7 @@ foreach ($id in @($toAdd) + @($toUpdate)) {
     if ($LASTEXITCODE -ne 0) { Write-Warning "failed to add $($want[$id].file)" }
 }
 foreach ($id in $toRemove) { Remove-Item -LiteralPath $have[$id].path -Force }
+foreach ($cf in $cfRemove) { Remove-Item -LiteralPath $cf.path -Force }
 foreach ($f in $staticAdd) { Copy-Item -LiteralPath "$Instance\mods\$f" "$pack\mods\" -Force }
 foreach ($f in $staticDel) { Remove-Item -LiteralPath "$pack\mods\$f" -Force }
 
