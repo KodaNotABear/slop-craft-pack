@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Disables TFMG lead ore worldgen. CreateNuclear is the pack's single lead source (ingots stay unified via c: tags / AlmostUnified)."
+  }
+}

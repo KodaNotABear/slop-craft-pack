@@ -1,0 +1,12 @@
+{
+  "_comment": "Override: was a minecraft:geode that placed the floating-island block clusters. Replaced with simple_block placing air, which is a no-op (placing air where air already exists). All placed_features that call terralith:skylands/island (floating_islands.json + season variants) now place nothing instead of stone/dirt/ore geodes.",
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:air"
+      }
+    }
+  }
+}

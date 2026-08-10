@@ -9,7 +9,7 @@
 param(
     [switch]$DryRun,
     [switch]$NoPush,
-    [string]$Instance = "$env:APPDATA\PrismLauncher\instances\Craftin SMP\minecraft"
+    [string]$Instance = "$env:APPDATA\PrismLauncher\instances\Slop Craft\minecraft"
 )
 
 $ErrorActionPreference = 'Stop'

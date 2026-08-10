@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Compact Machines default room templates (tiny, small, normal, large, giant, colossal, farming, soaryn), their new_machine craft recipes, and recipe-unlock advancements. Extracted verbatim from the mod's built-in 'basic_templates' datapack so the default machines are always enabled on every world and on the dedicated server, without relying on the per-world datapack toggle."
+  }
+}

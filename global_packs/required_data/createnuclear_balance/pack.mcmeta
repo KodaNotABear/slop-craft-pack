@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Create Nuclear balance tweaks. Reduces autunite dominance in striated uranium deposits (autunite weight 2->1, max_size 5->3). Uranium ore amount per deposit and standalone uranium veins both remain at mod defaults."
+  }
+}

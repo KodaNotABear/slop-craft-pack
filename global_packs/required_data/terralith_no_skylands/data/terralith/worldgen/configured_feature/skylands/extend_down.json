@@ -1,0 +1,12 @@
+{
+  "_comment": "Override: was the feature that extended island bottoms downward into pointed shapes. Replaced with simple_block placing air (no-op). The extend_down.json and extend_down_high.json placed_features that reference this configured feature now place nothing.",
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:air"
+      }
+    }
+  }
+}

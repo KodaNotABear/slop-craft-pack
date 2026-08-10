@@ -1,0 +1,15 @@
+{
+  "_comment": "Override: vanilla end_cities was spacing 20 / separation 11. Bumped to spacing 10 / separation 4 (~4x density) because the outer End islands felt too sparse with elytra travel. salt unchanged so existing structure placements stay deterministic where the new spacing aligns.",
+  "structures": [
+    {
+      "structure": "minecraft:end_city",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 4,
+    "salt": 10387313
+  }
+}

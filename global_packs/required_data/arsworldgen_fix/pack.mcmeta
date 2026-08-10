@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Ars Nouveau worldgen fixes. Ars Additions ruined portals no longer spawn over ocean (which also fixes Nexus Tower since it inherits the same biome tag)."
+  }
+}

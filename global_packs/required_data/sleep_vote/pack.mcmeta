@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Sets playerSleepingPercentage to 50 on every world load — half of online (non-spectator) players sleeping skips the night. The percentage shows up in the vanilla 'X/Y sleeping' chat message automatically. Players can override via /gamerule mid-session, but the default resets on next world load."
+  }
+}

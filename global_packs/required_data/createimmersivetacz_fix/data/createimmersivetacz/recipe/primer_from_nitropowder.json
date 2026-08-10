@@ -1,0 +1,14 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "create:andesite_alloy" },
+    {
+      "type": "neoforge:tag",
+      "tag": "createimmersivetacz:nitropowder",
+      "amount": 25
+    }
+  ],
+  "results": [
+    { "id": "createimmersivetacz:primer" }
+  ]
+}

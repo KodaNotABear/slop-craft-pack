@@ -1,0 +1,14 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "create:andesite_alloy" },
+    {
+      "type": "neoforge:tag",
+      "tag": "createimmersivetacz:gunpowder",
+      "amount": 50
+    }
+  ],
+  "results": [
+    { "id": "createimmersivetacz:primer" }
+  ]
+}

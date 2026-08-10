@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Fixes createimmersivetacz recipes with broken fluid_stack format for NeoForge 1.21.1. Overrides the mod's primer + casing fill recipes with correct neoforge:simple fluid ingredient syntax."
+  }
+}

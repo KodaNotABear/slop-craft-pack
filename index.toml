@@ -1,6 +1,286 @@
 hash-format = "sha256"
 
 [[files]]
+file = "global_packs/required_data/arsworldgen_fix/data/ars_additions/tags/worldgen/biome/has_structure/ruined_portal.json"
+hash = "887ad97c66d8b67fd025685508eeb2ab6c9a4eb15c3b4364c7c22c99b24f68e3"
+
+[[files]]
+file = "global_packs/required_data/arsworldgen_fix/pack.mcmeta"
+hash = "997272abec67b4a4a843d3b6ed21a5b6c7b6972cf77d6de227ceb8f0d6372aa7"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/advancement/recipes/misc/new_machine_colossal.json"
+hash = "1ad9404a050d76af01e484f7cc382f10af802b29afc2b96262d98b0769f4bace"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/advancement/recipes/misc/new_machine_farming.json"
+hash = "b1fc7a3aac3bf0cba883f65c906444083e11a4178732734376ddd62c24ebb419"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/advancement/recipes/misc/new_machine_giant.json"
+hash = "95a4d84b6016a4c9d54bbc4a9c7d2c86a21a0f99dbf85deceb4f10f81db3796d"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/advancement/recipes/misc/new_machine_large.json"
+hash = "ce33ef0fd79215388f3995887ca63dcf70273bcf7e35a5c6578b2e8a64a9bc21"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/advancement/recipes/misc/new_machine_normal.json"
+hash = "f6abf9bed22d17b227d88e4846c08b2874d586b62ace970a0e85f7ecb216532a"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/advancement/recipes/misc/new_machine_small.json"
+hash = "38243e2802c486a8026b893302fea0208c057761413def55d28fc6407087b519"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/advancement/recipes/misc/new_machine_soaryn.json"
+hash = "cb67d6fe0e08b452583a3ac5e638e51217c782461b149229956d6ea5446fc1ce"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/advancement/recipes/misc/new_machine_tiny.json"
+hash = "04cb2235ca9f0243b0b69f1ae1b19b6abb562316b14e2cf8b1065adbff5d0d2c"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/compactmachines/room_templates/colossal.json"
+hash = "c28a269847e1bdaa6db987031ea2ae79ffee0097c05cb3095fc0ba457cd977df"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/compactmachines/room_templates/farming.json"
+hash = "e3c7c86f0eae23ba548c95579ac36f2bc2f738500796a770cda5ceea3edb8b47"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/compactmachines/room_templates/giant.json"
+hash = "14c3199b8e1d35648023b072ce6a517e7059cecdf13591cd342bcc65d9e13d48"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/compactmachines/room_templates/large.json"
+hash = "0070d88b49cda8e15939169d521ea42bee986e0cf9065619d8436e0d4c760d8e"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/compactmachines/room_templates/normal.json"
+hash = "0758199a651784d778edc664ba1ceb6812af7166d76dc12f318414fe7e696785"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/compactmachines/room_templates/small.json"
+hash = "7c4f9267bf8dd6697e38c08132f364c95cfd6c85ead29ab5351588720026b6e6"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/compactmachines/room_templates/soaryn.json"
+hash = "94ef3ceef0ae2f20723d09beb57815c285ebc56f07d2dc5182ea474a784caea3"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/compactmachines/room_templates/tiny.json"
+hash = "afd82b64178bf2601c42ebb92c44013b53a965ce77b4aec0f0fe4ed265404693"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/recipe/new_machine_colossal.json"
+hash = "93055065a34444b2779f0d572ea29e4bb61beea96bb7478b2554f247f3b473aa"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/recipe/new_machine_farming.json"
+hash = "12a365a279e7081789b7bffe5776a7b52a3d7a69525ba152ada39647a6058d88"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/recipe/new_machine_giant.json"
+hash = "305f8966c1524ec7424c72f884dfa1640563487e4004efb87994883e63f85021"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/recipe/new_machine_large.json"
+hash = "b0e362a83e555a067860bb99f681ca7d94d060240c7582bea1cf919a71eef783"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/recipe/new_machine_normal.json"
+hash = "a90ab29b7be62d73af77a388448082e866bcd500c81ac5998ec965ccae0c34a4"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/recipe/new_machine_small.json"
+hash = "28b3d7ab1d182e3dfd278ed49998681d428887cbf29f64af7d823b8ee21a4fa5"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/recipe/new_machine_soaryn.json"
+hash = "10b6059140820589374353590711f0b458870c791798cc60dc727deeeaa2b77b"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/data/compactmachines/recipe/new_machine_tiny.json"
+hash = "4642f835cebdc5a12fdd60dd983c16737388a6b8a8c7c83ef53897bfb1728035"
+
+[[files]]
+file = "global_packs/required_data/compactmachines_templates/pack.mcmeta"
+hash = "2dfe331292b352650be914c42260898daa5ba50a276ae0d4a593df813ca4075d"
+
+[[files]]
+file = "global_packs/required_data/createimmersivetacz_fix/data/createimmersivetacz/recipe/ammo/pneumatic_pistol_casing_fill.json"
+hash = "633de377c02bc8b417a6ff1a1ede50a296eedda32ea6231b1879f9b7b9e28534"
+
+[[files]]
+file = "global_packs/required_data/createimmersivetacz_fix/data/createimmersivetacz/recipe/ammo/rimmed_blunt_ap_casing_fill.json"
+hash = "992dcf3380f9970194ab362ce59d150c38b6d069d5657c4afe63ef1fb3d182ad"
+
+[[files]]
+file = "global_packs/required_data/createimmersivetacz_fix/data/createimmersivetacz/recipe/ammo/slap_casing_fill.json"
+hash = "1c59ef1ee921f1d24005cfab1a724507639de25d73b68a9f6f7388164e25d533"
+
+[[files]]
+file = "global_packs/required_data/createimmersivetacz_fix/data/createimmersivetacz/recipe/ammo/twelve_gauge_shell_fill.json"
+hash = "a60efb0ba82fc56959efa2897d8f18d6d4ddeb43e7c7968fe13158beece26428"
+
+[[files]]
+file = "global_packs/required_data/createimmersivetacz_fix/data/createimmersivetacz/recipe/primer.json"
+hash = "2ce29eb33813f04a309b39bf1a8027219f7a4dcc3d80d1e6c76821cef89c91cc"
+
+[[files]]
+file = "global_packs/required_data/createimmersivetacz_fix/data/createimmersivetacz/recipe/primer_from_nitropowder.json"
+hash = "cb5cca09a78bf067cb35bc053abbeb9df54278ffbe9838bc1c3546ab0a02c461"
+
+[[files]]
+file = "global_packs/required_data/createimmersivetacz_fix/data/createimmersivetacz/tags/fluid/gunpowder.json"
+hash = "c7eaa108490dddeb73e5256dd844d390ea9fd4b185c343cae5e62e9151886e34"
+
+[[files]]
+file = "global_packs/required_data/createimmersivetacz_fix/data/createimmersivetacz/tags/fluid/nitropowder.json"
+hash = "df8138ead375803dbe434f0b1981be7aa3486209dcbe57e5e3d404cb719fc982"
+
+[[files]]
+file = "global_packs/required_data/createimmersivetacz_fix/pack.mcmeta"
+hash = "cf32441a654e7c05afb9ab20ce33f43efd53ad66d67170d60756cf696c6c4886"
+
+[[files]]
+file = "global_packs/required_data/createnuclear_balance/data/createnuclear/worldgen/configured_feature/striated_ores_overworld.json"
+hash = "2f3dee0b7688b4dea711909daeddd8b0dce694ef4a0035053d42d3452d8b21e8"
+
+[[files]]
+file = "global_packs/required_data/createnuclear_balance/pack.mcmeta"
+hash = "eb4554c5bfede79141e20bcbb822fc7bef5e87fd12498936e6ae08344562950f"
+
+[[files]]
+file = "global_packs/required_data/end_cities_denser/data/minecraft/worldgen/structure_set/end_cities.json"
+hash = "caa1e91bfa831e165d6737b2cf5269189215e248079f10fa97063ff96810b1ed"
+
+[[files]]
+file = "global_packs/required_data/end_cities_denser/pack.mcmeta"
+hash = "cef75d264f34ef097d4d5ed5ce04d4ae9d63878e1a1c120167b98547a8aee40c"
+
+[[files]]
+file = "global_packs/required_data/kaleidoscopedoll_curios_head_fix/data/kaleidoscope_doll/curios/slots/head.json"
+hash = "4a5f975ddac8a25b0cbd11b3fab63c11e74259c251de2fe1276943bb75f4bb6c"
+
+[[files]]
+file = "global_packs/required_data/kaleidoscopedoll_curios_head_fix/pack.mcmeta"
+hash = "7cea501a441bcc739d87084736d078493ecc565c7c2ef66ff03a0648c9484bb7"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/anchorpointasloot.json"
+hash = "efe7449f13baf25b8bec9c22c34210ef2cad07f0531ef954b333b8c94ce5de98"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/bloodprisonerasloot.json"
+hash = "35ca8ca16cf725b28e56ecd49c521ac40b0f1efa815bf798a42ae95460a39941"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/breakerasloot.json"
+hash = "c311892f8da7f67da4d8d4013ee82129b074426babfd22742bca5a1aff0dfe1b"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/buoyancyasloot.json"
+hash = "27beb508a6a7bca7fae1252558ea10efbe66866bbaf7daa68418a57ba314677b"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/closedasloot.json"
+hash = "423458e15107b2bee98fe0b91146b16b2cce0f48aed0226ddfc48db4b1834dd7"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/falconnestasloot.json"
+hash = "d9d3a52fbfcd513619f304603bf759f56050d0d55a29290117ac8d4e14fa3c8f"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/hammerasloot.json"
+hash = "51e1b0caccbbb08205d7e1663f390b52e10fb5eb3228d2cab63df7c0ade66ab8"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/hellsnakeasloot.json"
+hash = "9cb0329dcf9df72d071fb1fe0badfad3c044be8d9c60b2ee43ee9dabe7b0cb7a"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/hunterasloot.json"
+hash = "25b690d1a56e77cc47baeef20ea6dc2541686a8314fc9b63806c82c20ed45081"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/lancerasloot.json"
+hash = "66c2518953d47e360733891d679e0253670c44ed8aed59830aca03edcee4b202"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/magneticasloot.json"
+hash = "6ed7ef8b9d8bbe946f6a5507f861529dfc8f63ef5cbc545992448b6f5290cc2e"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/nightdemonasloot.json"
+hash = "efe4a2a904c54a9de48338caec43576ec23ac4acd48aeb59c7f6d9399ec74719"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/pioneerasloot.json"
+hash = "eeaa8a18d86f7f4abf72eebbeede5ec00a93da2fbf32d5a1bd7499f640ca20b8"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/plagueasloot.json"
+hash = "7cdf69c225887144cf640e975a83a254d99446557e20c642e1f387efdf40de41"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/prismasloot.json"
+hash = "bff1b2422c5c9f5f913f04522458fe920367ef0cb7ca826bf72a715a65acc99b"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/slingshotasloot.json"
+hash = "92ae665e24dfc8521dd18b44c359b084f9047e6e942d5c294d7d82c20f64d0a2"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/typhoonasloot.json"
+hash = "bb9c8d967b69550cfb5e677a43049d31bd636b6d807e1e3482d307b2421d7b99"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/watertankloot_2.json"
+hash = "b01b0ce67a247fb68a8432c0d28c7a5cf7a30cab1162856d7406da3b7c7dbae7"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/workerasloot.json"
+hash = "954e171e162d36ac888003cc5649422c71c4ce15527523ccc48cf3817040d5c0"
+
+[[files]]
+file = "global_packs/required_data/protection_pixel_fix/pack.mcmeta"
+hash = "f4ad24835647a1fd3db00205b0a73afdd9e4d729626c080914b58e9b1520f1c3"
+
+[[files]]
+file = "global_packs/required_data/sleep_vote/data/minecraft/tags/function/load.json"
+hash = "2e94369b8e7614c31a73d5724a07ef2dc010dd4cd80215d5859dda45e2cdc57e"
+
+[[files]]
+file = "global_packs/required_data/sleep_vote/data/sleep_vote/function/init.mcfunction"
+hash = "be45b657c9b4ed7f99237fc200fd85b0ff3c1a4f36c5f2c9e4a9bc6101c7f2f0"
+
+[[files]]
+file = "global_packs/required_data/sleep_vote/pack.mcmeta"
+hash = "0d15c037e684fc0180da89dc6f17ba1562713e540a517523184c318abd089e59"
+
+[[files]]
+file = "global_packs/required_data/terralith_no_skylands/data/terralith/worldgen/configured_feature/skylands/extend_down.json"
+hash = "56253e3a8e4003efe360dde688752b8930f238a7890f7dc5b36ea0c3057cecd0"
+
+[[files]]
+file = "global_packs/required_data/terralith_no_skylands/data/terralith/worldgen/configured_feature/skylands/island.json"
+hash = "ade2bf3c565c1d7326ff637b07fc2f25f52a4e370bb3b9c498001f0bdb72ab32"
+
+[[files]]
+file = "global_packs/required_data/terralith_no_skylands/pack.mcmeta"
+hash = "04e47c46b80aa13cc07b8e90777f5793b3a044b24caf8eb13b57feb129f1ccce"
+
+[[files]]
+file = "global_packs/required_data/tfmg_no_lead/data/tfmg/neoforge/biome_modifier/lead_ore.json"
+hash = "5e0b637dcc33ce00b4967dae61d4f34ed4e0d4e9a94dd3b9748ea3e289af1ff2"
+
+[[files]]
+file = "global_packs/required_data/tfmg_no_lead/pack.mcmeta"
+hash = "5bace19ccc22657bca713e557b7215634a70bb0db6409808a6df66179f5f01b1"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "c1f98a1e9d7201f0b6ddc3f705f43a53f7539978f48425de5c1177a310fe7b86"
 metafile = true

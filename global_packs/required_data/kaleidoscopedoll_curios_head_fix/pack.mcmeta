@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Compatibility fix: Kaleidoscope Doll's head curios slot def overrides the slot validators to only 'kaleidoscope_doll:doll_item', which removes the default 'curios:tag' validator and blocks every other head curio (Engineer's Goggles, gas masks, hats, monocles, etc.) from being equipped. This re-adds 'curios:tag' so tag-based head curios work again, while keeping the doll's own validator so the doll still fits."
+  }
+}

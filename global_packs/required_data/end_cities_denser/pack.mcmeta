@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Increases End city density by overriding the minecraft:end_cities structure set. Spacing 20 -> 10 chunks, separation 11 -> 4 chunks. Net effect: roughly 4x more End cities to discover when flying around outer End islands. Loot per city is unchanged."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Fixes protection_pixel sequenced_assembly recipes that use the deprecated fluid_stack JSON format. Replaces the broken create:filling step with the working neoforge:tag format referencing minecraft:lava."
+  }
+}

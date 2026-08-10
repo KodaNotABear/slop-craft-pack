@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Disables Terralith floating-island generation by no-op'ing the two configured features that produce the actual terrain: terralith:skylands/island (the geode-based island chunks) and terralith:skylands/extend_down (the downward extensions). Both replaced with simple_block placing air. The skyland biomes still exist as biome IDs and may be assigned by the multi_noise biome source, but no floating-island terrain forms, so there's nothing to land on or see. Decoration features (trees, grass, dirt_tops) attached to skyland biomes also produce nothing because they require a solid block to attach to, which no longer exists."
+  }
+}
