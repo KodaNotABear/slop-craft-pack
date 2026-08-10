@@ -630,6 +630,11 @@ hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
 metafile = true
 
 [[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
+metafile = true
+
+[[files]]
 file = "mods/create-blaze-burner-fuels.pw.toml"
 hash = "cf2f91931925be47f0db6435d9878945f880258d579f3840496644cd940e6f05"
 metafile = true
