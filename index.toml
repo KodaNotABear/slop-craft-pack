@@ -109,8 +109,16 @@ file = "configureddefaults/README.md"
 hash = "7d856d3f9655abc661ac67b450a0c956bbf80323786b407301fbdca02d2c5b8b"
 
 [[files]]
+file = "configureddefaults/config/analogaudio/analogaudio.client.toml"
+hash = "cbaf02bd65f64a4881f3b25dc47396a8bfcf1dd16d6ab3ae6f97d5751711a3ff"
+
+[[files]]
 file = "configureddefaults/config/immediatelyfast.json"
 hash = "9006e88ca92818939073bc9e69df9bf2ba74f9f3bf38d0b0b4bb16fc09015a71"
+
+[[files]]
+file = "configureddefaults/config/rocketnautics-client.toml"
+hash = "f5e8c64778cb964f299bc67e67658b18d8625bc28478d9df8139edd7c05c6ca0"
 
 [[files]]
 file = "configureddefaults/options.txt"
@@ -450,11 +458,7 @@ hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 
 [[files]]
 file = "kubejs/config/common.json"
-hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
-
-[[files]]
-file = "kubejs/config/web_server.json"
-hash = "0f70aab02560a49452978f9eda9149aca1ce8b23fa55594c287f48bc7dd8dcb9"
+hash = "c3f10630f32b42efa3805a39fc43ae6bda293092df77238419b644ad14a89522"
 
 [[files]]
 file = "kubejs/data/createteleporters/recipe/quantum_fluid_recipe.json"
