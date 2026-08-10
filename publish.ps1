@@ -106,6 +106,12 @@ foreach ($f in $staticAdd) { Copy-Item -LiteralPath "$Instance\mods\$f" "$pack\m
 foreach ($f in $staticDel) { Remove-Item -LiteralPath "$pack\mods\$f" -Force }
 
 # --- Re-tag sides from Modrinth project metadata ---
+# Manual overrides win over Modrinth metadata. Keyed by Modrinth project id.
+# lithostitched: Modrinth says server-only, but Terralith requires it on
+# clients too - fresh client installs crash without it.
+$SideOverrides = @{
+    'XaDC71GB' = 'both'   # Lithostitched
+}
 Write-Host "`nTagging client/server sides..." -ForegroundColor Cyan
 $ids = @($want.Keys)
 $projects = @()
@@ -116,7 +122,8 @@ for ($i = 0; $i -lt $ids.Count; $i += 100) {
 }
 $sideById = @{}
 foreach ($p in $projects) {
-    $sideById[$p.id] = if ($p.server_side -eq 'unsupported') { 'client' }
+    $sideById[$p.id] = if ($SideOverrides.ContainsKey($p.id)) { $SideOverrides[$p.id] }
+                       elseif ($p.server_side -eq 'unsupported') { 'client' }
                        elseif ($p.client_side -eq 'unsupported') { 'server' }
                        else { 'both' }
 }
