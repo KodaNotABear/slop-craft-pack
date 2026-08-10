@@ -94,10 +94,13 @@ if ($DryRun) { Write-Host "`n(dry run - nothing changed)" -ForegroundColor Cyan;
 # Everything here is pack content every machine must have: scripts, fix
 # datapacks, menu customization, fresh-install defaults, custom gun packs.
 # /MIR means deletions in the instance propagate too.
-$ContentDirs = @('kubejs', 'global_packs', 'config\fancymenu', 'configureddefaults', 'defaultconfigs', 'emotes')
+$ContentDirs = @('global_packs', 'config\fancymenu', 'configureddefaults', 'defaultconfigs', 'emotes')
 foreach ($d in $ContentDirs) {
     if (Test-Path "$Instance\$d") { robocopy "$Instance\$d" "$pack\$d" /MIR /NFL /NDL /NJH /NJS | Out-Null }
 }
+# KubeJS: ship everything except the local web-server config (it holds a
+# per-machine auth token and shouldn't be shared).
+if (Test-Path "$Instance\kubejs") { robocopy "$Instance\kubejs" "$pack\kubejs" /MIR /XF web_server.json /NFL /NDL /NJH /NJS | Out-Null }
 # TACZ: ship custom gun packs only; the default pack self-extracts everywhere.
 if (Test-Path "$Instance\tacz") { robocopy "$Instance\tacz" "$pack\tacz" /MIR /XD tacz_default_gun /XF .export-state.json /NFL /NDL /NJH /NJS | Out-Null }
 # Shaderpacks: ship base zips only (top level); Euphoria Patcher generates the
