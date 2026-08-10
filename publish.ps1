@@ -89,7 +89,24 @@ if ($staticAdd) { Write-Host "Bundled jars added:   $($staticAdd -join ', ')" -F
 if ($staticDel) { Write-Host "Bundled jars removed: $($staticDel -join ', ')" -ForegroundColor Red }
 
 if ($DryRun) { Write-Host "`n(dry run - nothing changed)" -ForegroundColor Cyan; return }
-if (-not ($toAdd -or $toUpdate -or $toRemove -or $cfRemove -or $staticAdd -or $staticDel)) {
+
+# --- Mirror shared content folders from the instance ---
+# Everything here is pack content every machine must have: scripts, fix
+# datapacks, menu customization, fresh-install defaults, custom gun packs.
+# /MIR means deletions in the instance propagate too.
+$ContentDirs = @('kubejs', 'global_packs', 'config\fancymenu', 'configureddefaults', 'defaultconfigs', 'emotes')
+foreach ($d in $ContentDirs) {
+    if (Test-Path "$Instance\$d") { robocopy "$Instance\$d" "$pack\$d" /MIR /NFL /NDL /NJH /NJS | Out-Null }
+}
+# TACZ: ship custom gun packs only; the default pack self-extracts everywhere.
+if (Test-Path "$Instance\tacz") { robocopy "$Instance\tacz" "$pack\tacz" /MIR /XD tacz_default_gun /XF .export-state.json /NFL /NDL /NJH /NJS | Out-Null }
+# Shaderpacks: ship base zips only (top level); Euphoria Patcher generates the
+# patched folders on each machine and errors loudly without its base zip.
+if (Test-Path "$Instance\shaderpacks") { robocopy "$Instance\shaderpacks" "$pack\shaderpacks" *.zip /LEV:1 /PURGE /NFL /NDL /NJH /NJS | Out-Null }
+$contentChanged = @(git -C $pack status --porcelain).Count -gt 0
+if ($contentChanged) { Write-Host "Content folders: changes detected" -ForegroundColor Yellow }
+
+if (-not ($toAdd -or $toUpdate -or $toRemove -or $cfRemove -or $staticAdd -or $staticDel -or $contentChanged)) {
     Write-Host "`nPack already matches the instance. Nothing to do." -ForegroundColor Cyan
     return
 }

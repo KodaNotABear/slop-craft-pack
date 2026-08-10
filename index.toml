@@ -105,6 +105,22 @@ file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
+file = "configureddefaults/README.md"
+hash = "7d856d3f9655abc661ac67b450a0c956bbf80323786b407301fbdca02d2c5b8b"
+
+[[files]]
+file = "configureddefaults/config/immediatelyfast.json"
+hash = "9006e88ca92818939073bc9e69df9bf2ba74f9f3bf38d0b0b4bb16fc09015a71"
+
+[[files]]
+file = "defaultconfigs/biolith/general.json"
+hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
+
+[[files]]
+file = "emotes/Omni man.emotecraft"
+hash = "bdf3271b7eebf91f000c6c05ec1db4b376e0aecae9e663e14273942c62e0e6b1"
+
+[[files]]
 file = "global_packs/required_data/arsworldgen_fix/data/ars_additions/tags/worldgen/biome/has_structure/ruined_portal.json"
 hash = "887ad97c66d8b67fd025685508eeb2ab6c9a4eb15c3b4364c7c22c99b24f68e3"
 
@@ -383,6 +399,114 @@ hash = "5e0b637dcc33ce00b4967dae61d4f34ed4e0d4e9a94dd3b9748ea3e289af1ff2"
 [[files]]
 file = "global_packs/required_data/tfmg_no_lead/pack.mcmeta"
 hash = "5bace19ccc22657bca713e557b7215634a70bb0db6409808a6df66179f5f01b1"
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/honey_matcha.png"
+hash = "3b559643281066cd04b0bbd7f6598583cc8123b82593e3551b6b5873bbbd7203"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/matcha.png"
+hash = "719a50fccdf0c27f3ed9af02438e968496c11afdff1a7c2e0497f685fca7f91d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/matcha_latte.png"
+hash = "45392eb6cf7162f572145982c6db768479c203d288a7c09aa6c286ad1e7867cf"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/matcha_powder.png"
+hash = "9ee0aa9b4567225e1a6c7af73b9a5f3ab7fe81f5614df4d22dc7096e9c31b9e8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sweet_matcha.png"
+hash = "dfd56311d9ffcfadd2e43a20d53e46a12c414b865fe99382073049840f49b1cb"
+
+[[files]]
+file = "kubejs/client_scripts/brewinandchewin_hide_fluids.js"
+hash = "148073d47f14cfad2e23cfdf6aa37e97467cc11c6458b70267d93528e43861f7"
+
+[[files]]
+file = "kubejs/client_scripts/main.js"
+hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+hash = "0f70aab02560a49452978f9eda9149aca1ce8b23fa55594c287f48bc7dd8dcb9"
+
+[[files]]
+file = "kubejs/data/createteleporters/recipe/quantum_fluid_recipe.json"
+hash = "99ae45aa20bab7c16bff6d54c64cc3425a52fbff1147d3ab51255362aa363735"
+
+[[files]]
+file = "kubejs/data/createteleporters/recipe/quantum_mechanism_recipe.json"
+hash = "462058c7f9b61d17f553343599357c5aed12f89dbef7928c7436202110d2a822"
+
+[[files]]
+file = "kubejs/server_scripts/brewinandchewin_drinks.js"
+hash = "2564fbdd994a83deb54fc36a6115f7a4687e2aa7d93222677594248522efdd62"
+
+[[files]]
+file = "kubejs/server_scripts/coffee_drain.js"
+hash = "246be533cb19ce0f47c1e63241d714eb071a075a499457bf44785004126192a5"
+
+[[files]]
+file = "kubejs/server_scripts/ends_delight_drinks.js"
+hash = "28bd17ac29fbbaca20801e4f0f19cef6d5c5387f05b9723dd7ee1037f1ef3737"
+
+[[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+
+[[files]]
+file = "kubejs/server_scripts/matcha_drinks.js"
+hash = "0b3b4da4b475c21fba1d2080064c798e26310c3450769f06e9363c42cb6723fd"
+
+[[files]]
+file = "kubejs/server_scripts/matcha_fd.js"
+hash = "ee4c7e7cbf3122c281cfe1f1a71bbe0db2c98eb0d8271c7321033cb8ba4cad39"
+
+[[files]]
+file = "kubejs/server_scripts/remove_duplicate_steel.js"
+hash = "d1c58ab5e2c3b227cd3ce135981b37ff021382df5aa54185a690dde2891d5de7"
+
+[[files]]
+file = "kubejs/startup_scripts/brewinandchewin_fluid.js"
+hash = "8d7b4bd80fac781a01746187d171cabc303d1c50c4213e53d6c24f3e9ba3703f"
+
+[[files]]
+file = "kubejs/startup_scripts/coffee_fluid.js"
+hash = "e4d31b2d739cfabe1cb134f8c9c8bbd9cace56706cf7c8106bba657d12c6dffc"
+
+[[files]]
+file = "kubejs/startup_scripts/ends_delight_fluid.js"
+hash = "51a9d71bdeac8a10aca0af16d20bf08674db18fedb61790f4a26d324ddc77658"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
+file = "kubejs/startup_scripts/matcha.js"
+hash = "f357f1273c7182bad14cbdae6a714f5ec9d7919251ddbe793db3cbaf94be19e1"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -1907,3 +2031,11 @@ metafile = true
 file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
 hash = "4a1765568ea97948d6e8a1871896bff7e980c1b63593866b4cdb330152b713d3"
 metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
+hash = "3f1cd389e717b2e62f58edff222059b9c60de71b14bb49b517eb58318ce35b15"
+
+[[files]]
+file = "tacz/Create Armorer-v1.2.0.1-for117+1.21.1.zip"
+hash = "847598ad0fad8b96cba0743975a992fc6964939092416ed9732db1f20bd20f49"
