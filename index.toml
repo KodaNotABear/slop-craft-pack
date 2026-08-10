@@ -113,6 +113,10 @@ file = "configureddefaults/config/immediatelyfast.json"
 hash = "9006e88ca92818939073bc9e69df9bf2ba74f9f3bf38d0b0b4bb16fc09015a71"
 
 [[files]]
+file = "configureddefaults/options.txt"
+hash = "e5571433d3921c1638ab7f1c41b3bf319c6d5fd2847e7b69d192b1cf32c991fa"
+
+[[files]]
 file = "defaultconfigs/biolith/general.json"
 hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
 
@@ -805,7 +809,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "2f6a345c8124dd87b60c8ebbbaa35d9efa27c2d1947357b3247ab98fae9db210"
+hash = "0f24d3112418b31cf86b84d0ded37decc9dbd50cc229cec632547458c01ffdca"
 metafile = true
 
 [[files]]

@@ -130,6 +130,8 @@ $SideOverrides = @{
     'XaDC71GB' = 'both'   # Lithostitched: Terralith requires it client-side
     'OfKzpbRU' = 'both'   # BaguetteLib: registers a mandatory network channel;
                           # server rejects clients that lack it
+    'pJGcKPh1' = 'both'   # Corpse x Curios Compat: registers a synced
+                          # data_component_type; registry sync rejects clients
 }
 Write-Host "`nTagging client/server sides..." -ForegroundColor Cyan
 $ids = @($want.Keys)
