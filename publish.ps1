@@ -110,7 +110,9 @@ foreach ($f in $staticDel) { Remove-Item -LiteralPath "$pack\mods\$f" -Force }
 # lithostitched: Modrinth says server-only, but Terralith requires it on
 # clients too - fresh client installs crash without it.
 $SideOverrides = @{
-    'XaDC71GB' = 'both'   # Lithostitched
+    'XaDC71GB' = 'both'   # Lithostitched: Terralith requires it client-side
+    'OfKzpbRU' = 'both'   # BaguetteLib: registers a mandatory network channel;
+                          # server rejects clients that lack it
 }
 Write-Host "`nTagging client/server sides..." -ForegroundColor Cyan
 $ids = @($want.Keys)

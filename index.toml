@@ -5,6 +5,106 @@ file = "config/createfood-common.toml"
 hash = "f79aeadaf2f06f9505314b49ffa0fdd638eb29ea30869706c5a777e42a1bdb24"
 
 [[files]]
+file = "config/fancymenu/assets/minecraft_title.png"
+hash = "bd2c5d86c00d6d3c63a12c38fb7e6a6fe70c152f01850659edbd50ca1701febf"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "8e676f6d248626683b2a8b23896507a4aa1c15283b568c3b9774f106a0963bb2"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "6895bd2280a781cc8b691db9958958c93df0a5afb4d191587950f64226ac2c86"
+
+[[files]]
+file = "config/fancymenu/panoramas/panorama_1.zip"
+hash = "803d54938e0d506055b53e464f91cebf1a901a311f54ddead050c2616c25677f"
+
+[[files]]
+file = "config/fancymenu/panoramas/slopcraft/panorama/panorama_0.png"
+hash = "9fb706e66c10bec70478d8064aac75f72f32774414227ff4f4b494d5b14fd360"
+
+[[files]]
+file = "config/fancymenu/panoramas/slopcraft/panorama/panorama_1.png"
+hash = "ebc4966d88b1f381ec2723f3e15f99e1184ba22ebab3dc752b994fd5fe56edd6"
+
+[[files]]
+file = "config/fancymenu/panoramas/slopcraft/panorama/panorama_2.png"
+hash = "030487c66f5925f1703fb60bea354a0cb143a0e1bf290f8b433c75b5dbc5df0b"
+
+[[files]]
+file = "config/fancymenu/panoramas/slopcraft/panorama/panorama_3.png"
+hash = "fdc465578a52534cc82b0eb37f2abcb95a7ead10c2cbe189618929f35e7585b5"
+
+[[files]]
+file = "config/fancymenu/panoramas/slopcraft/panorama/panorama_4.png"
+hash = "ed29e1b277b274ea7abf55cf73d41807fbaaf8059c394ff61dbb325c9a16cf08"
+
+[[files]]
+file = "config/fancymenu/panoramas/slopcraft/panorama/panorama_5.png"
+hash = "b17464ceee8a59d171ca1ace85dce2df2644b5f2a6373b1576ebdd0bbe37c7e5"
+
+[[files]]
+file = "config/fancymenu/panoramas/slopcraft/properties.txt"
+hash = "7355be40ca8d72f50cd86ad343e9d032116d50c10a04915cb4a4b485e6ad6fa6"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "global_packs/required_data/arsworldgen_fix/data/ars_additions/tags/worldgen/biome/has_structure/ruined_portal.json"
 hash = "887ad97c66d8b67fd025685508eeb2ab6c9a4eb15c3b4364c7c22c99b24f68e3"
 
@@ -411,7 +511,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "762fcd212e5049e6e8dcece301c4f33a17d3fc9b00744301c52c4695d7015523"
+hash = "cc360d86f76e729d3ebb7384cfbc933d8ffba694ba91360edeb846d61d14e561"
 metafile = true
 
 [[files]]
