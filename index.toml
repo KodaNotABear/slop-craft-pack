@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".analogaudio/internal/analogplayer-1.0.2.jar"
+hash = "5b53779dca71a5d9f9e15cf9137a6b44d4ca3bb578c9027b30c30578819cebd7"
+
+[[files]]
 file = "config/createfood-common.toml"
 hash = "f79aeadaf2f06f9505314b49ffa0fdd638eb29ea30869706c5a777e42a1bdb24"
 
@@ -107,10 +111,6 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 [[files]]
 file = "configureddefaults/README.md"
 hash = "7d856d3f9655abc661ac67b450a0c956bbf80323786b407301fbdca02d2c5b8b"
-
-[[files]]
-file = "configureddefaults/config/analogaudio/analogaudio.client.toml"
-hash = "cbaf02bd65f64a4881f3b25dc47396a8bfcf1dd16d6ab3ae6f97d5751711a3ff"
 
 [[files]]
 file = "configureddefaults/config/immediatelyfast.json"
@@ -299,86 +299,6 @@ hash = "4a5f975ddac8a25b0cbd11b3fab63c11e74259c251de2fe1276943bb75f4bb6c"
 [[files]]
 file = "global_packs/required_data/kaleidoscopedoll_curios_head_fix/pack.mcmeta"
 hash = "7cea501a441bcc739d87084736d078493ecc565c7c2ef66ff03a0648c9484bb7"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/anchorpointasloot.json"
-hash = "efe7449f13baf25b8bec9c22c34210ef2cad07f0531ef954b333b8c94ce5de98"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/bloodprisonerasloot.json"
-hash = "35ca8ca16cf725b28e56ecd49c521ac40b0f1efa815bf798a42ae95460a39941"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/breakerasloot.json"
-hash = "c311892f8da7f67da4d8d4013ee82129b074426babfd22742bca5a1aff0dfe1b"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/buoyancyasloot.json"
-hash = "27beb508a6a7bca7fae1252558ea10efbe66866bbaf7daa68418a57ba314677b"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/closedasloot.json"
-hash = "423458e15107b2bee98fe0b91146b16b2cce0f48aed0226ddfc48db4b1834dd7"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/falconnestasloot.json"
-hash = "d9d3a52fbfcd513619f304603bf759f56050d0d55a29290117ac8d4e14fa3c8f"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/hammerasloot.json"
-hash = "51e1b0caccbbb08205d7e1663f390b52e10fb5eb3228d2cab63df7c0ade66ab8"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/hellsnakeasloot.json"
-hash = "9cb0329dcf9df72d071fb1fe0badfad3c044be8d9c60b2ee43ee9dabe7b0cb7a"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/hunterasloot.json"
-hash = "25b690d1a56e77cc47baeef20ea6dc2541686a8314fc9b63806c82c20ed45081"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/lancerasloot.json"
-hash = "66c2518953d47e360733891d679e0253670c44ed8aed59830aca03edcee4b202"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/magneticasloot.json"
-hash = "6ed7ef8b9d8bbe946f6a5507f861529dfc8f63ef5cbc545992448b6f5290cc2e"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/nightdemonasloot.json"
-hash = "efe4a2a904c54a9de48338caec43576ec23ac4acd48aeb59c7f6d9399ec74719"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/pioneerasloot.json"
-hash = "eeaa8a18d86f7f4abf72eebbeede5ec00a93da2fbf32d5a1bd7499f640ca20b8"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/plagueasloot.json"
-hash = "7cdf69c225887144cf640e975a83a254d99446557e20c642e1f387efdf40de41"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/prismasloot.json"
-hash = "bff1b2422c5c9f5f913f04522458fe920367ef0cb7ca826bf72a715a65acc99b"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/slingshotasloot.json"
-hash = "92ae665e24dfc8521dd18b44c359b084f9047e6e942d5c294d7d82c20f64d0a2"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/typhoonasloot.json"
-hash = "bb9c8d967b69550cfb5e677a43049d31bd636b6d807e1e3482d307b2421d7b99"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/watertankloot_2.json"
-hash = "b01b0ce67a247fb68a8432c0d28c7a5cf7a30cab1162856d7406da3b7c7dbae7"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/data/protection_pixel/recipe/workerasloot.json"
-hash = "954e171e162d36ac888003cc5649422c71c4ce15527523ccc48cf3817040d5c0"
-
-[[files]]
-file = "global_packs/required_data/protection_pixel_fix/pack.mcmeta"
-hash = "f4ad24835647a1fd3db00205b0a73afdd9e4d729626c080914b58e9b1520f1c3"
 
 [[files]]
 file = "global_packs/required_data/sleep_vote/data/minecraft/tags/function/load.json"

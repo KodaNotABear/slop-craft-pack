@@ -94,7 +94,7 @@ if ($DryRun) { Write-Host "`n(dry run - nothing changed)" -ForegroundColor Cyan;
 # Everything here is pack content every machine must have: scripts, fix
 # datapacks, menu customization, fresh-install defaults, custom gun packs.
 # /MIR means deletions in the instance propagate too.
-$ContentDirs = @('global_packs', 'config\fancymenu', 'configureddefaults', 'defaultconfigs', 'emotes')
+$ContentDirs = @('global_packs', 'config\fancymenu', 'configureddefaults', 'defaultconfigs', 'emotes', '.analogaudio')
 foreach ($d in $ContentDirs) {
     if (Test-Path "$Instance\$d") { robocopy "$Instance\$d" "$pack\$d" /MIR /NFL /NDL /NJH /NJS | Out-Null }
 }
