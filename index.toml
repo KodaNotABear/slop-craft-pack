@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/createfood-common.toml"
-hash = "be9c58b8e0d7ffd43a628ad320153400b6d27bdcf8dbf9ccc9d81a206d42d747"
+hash = "f79aeadaf2f06f9505314b49ffa0fdd638eb29ea30869706c5a777e42a1bdb24"
 
 [[files]]
 file = "global_packs/required_data/arsworldgen_fix/data/ars_additions/tags/worldgen/biome/has_structure/ruined_portal.json"
