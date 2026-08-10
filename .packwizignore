@@ -4,3 +4,5 @@ publish.ps1
 packwiz-installer-bootstrap.jar
 packwiz-sync-agent.jar
 
+loader-upgrade-agent.jar
+
