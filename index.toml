@@ -5,6 +5,10 @@ file = ".analogaudio/internal/analogplayer-1.0.2.jar"
 hash = "5b53779dca71a5d9f9e15cf9137a6b44d4ca3bb578c9027b30c30578819cebd7"
 
 [[files]]
+file = "config/buildinggadgets2-common.toml"
+hash = "4f69e36cd55a2936eecb846c90a08b581893124ccd59c7c5dab6ebb2342334aa"
+
+[[files]]
 file = "config/createfood-common.toml"
 hash = "f79aeadaf2f06f9505314b49ffa0fdd638eb29ea30869706c5a777e42a1bdb24"
 
@@ -604,6 +608,11 @@ metafile = true
 [[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
+metafile = true
+
+[[files]]
+file = "mods/building-gadgets.pw.toml"
+hash = "88908286eebea979713b5626891f634317fcc4c5a5bd4ec0c9444a33863a4518"
 metafile = true
 
 [[files]]
