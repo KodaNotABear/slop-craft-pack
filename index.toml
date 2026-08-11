@@ -1685,6 +1685,10 @@ hash = "83a7b840686a417dfe1161ee5cd918989dd2d901c9013bf85e93a30f597260f7"
 metafile = true
 
 [[files]]
+file = "mods/slopcraft-0.1.0.jar"
+hash = "918fb3fe8a94092ab4b493acdb0bab0af2f677755116fb241fece4a66c1d3df9"
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "8b237735f64f339d35d40eaceb76cdf137fd05a49b452d2a8c3434cada762e11"
 metafile = true
