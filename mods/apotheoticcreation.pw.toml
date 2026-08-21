@@ -1,0 +1,13 @@
+name = "Apotheotic Creation"
+filename = "apotheoticcreation-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RmI01fbW/versions/kPimGExn/apotheoticcreation-2.0.0.jar"
+hash-format = "sha512"
+hash = "48065d4bff5b24ed7f3145456815f9c0c9376d9d6079c97a48001697d60df275b67ecf46fda4d1d6ad4cd2d8fca90d29cc660a1108e029ccfd1f32b11b004f24"
+
+[update]
+[update.modrinth]
+mod-id = "RmI01fbW"
+version = "kPimGExn"

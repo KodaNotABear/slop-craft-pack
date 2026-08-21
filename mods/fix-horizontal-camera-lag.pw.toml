@@ -1,0 +1,13 @@
+name = "Fix Horizontal Camera Lag"
+filename = "eg_fix_horizontal_camera_lag-1.1.1-neoforge-mc1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TuB934hI/versions/zsOvyrNK/eg_fix_horizontal_camera_lag-1.1.1-neoforge-mc1.21.jar"
+hash-format = "sha512"
+hash = "324ee642b32243967dc064ad4d5c5c8624c89fde31ebe024a47f48eb182effb923994631e3eb8577906d2b5d39a3312e0da5e180d8e4d52f08a1e0cfcc392825"
+
+[update]
+[update.modrinth]
+mod-id = "TuB934hI"
+version = "zsOvyrNK"

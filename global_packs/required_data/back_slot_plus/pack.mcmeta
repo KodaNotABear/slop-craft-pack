@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Adds +1 to the Curios 'back' slot (size 2) so players can wear a backpack and a jetpack/backtank (or elytra) at the same time. Uses operation ADD so it stacks on top of the mods' own SET size 1 definitions regardless of load order."
+  }
+}
